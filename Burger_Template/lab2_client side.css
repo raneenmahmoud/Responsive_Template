@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /*position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  background-color: white;
+  box-shadow:    0 0 20px black;
+  height: 8vh;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+li a:hover {
+  background-color: rgb(214, 212, 212);
+}
+
+.active {
+  background-color: white;
+}
+
+.right_nav{
+      float: right;
+}
+
+/*second section*/
+.hamburger{
+    background-image: url("images/hamburger.jpg");
+    background-size: cover;
+    height: 100%;
+    height: 100%;
+}
+
+.parag_first_section{
+    padding-top: 600px;
+    padding-left: 20px;
+    font-size: 40;
+    color: rgb(84, 79, 79);
+}
+
+.textfield input{
+    border: solid 1px;
+    width: 100%;
+    height: 60px;
+    font-size: 16px;
+    border-bottom: solid 1px rgb(142, 138, 138);
+    border-right: none;
+    border-top: none;
+    border-left: none;
+    background: none;  
+} 
+.all {
+        
+        /* width: fit-content;  */
+         margin-left: 10%; 
+         margin-right: 5%;
+    }
+.grid_container {
+        display: flex;
+    }
+ .column {
+    flex: 50%;
+ }
+.h1 {
+text-align: center;
+font-size: 35; 
+}
+.footer{
+    background-color: rgb(215, 211, 211);
+    height: 100px;
+}
+.afooter{
+ color:black;
+}
+.afooter:hover{
+   color: green;
+}
